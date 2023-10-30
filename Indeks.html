@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pribadi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#deskripsi">Deskripsi Diri</a>
+                </li>
+                <li>
+                    <a href="#pendidikan">Pendidikan</a>
+                </li>
+                <li>
+                    <a href="#pengalaman">Pengalaman<a>                    
+                </li>
+                <li>
+                    <a href="#keahlian">Keahlian</a>
+                </li>
+                <li>
+                    <a href="#kontak">Kontak</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="deskripsi">
+        <h2>Deskripsi Diri</h2>
+        <table class="borderless">
+            <tr>
+                <th style="text-align: left;">Nama</th>
+                <td style="text-align: left;">:Nur Fitrotissa'diyah</td>
+            </tr>
+            <tr>
+                <th style="text-align: left;">TTL</th>
+                <th style="text-align: left;">:Demak, 25 November 2003</th>
+            </tr>
+            <tr>
+                <th style="text-align: left;">Alamat</th>
+                <td style="text-align: left;">:Ds. Kedungmutih RT/RW 005/002 Kec. Wedung Kab. Demak Jawa Tengah</td>
+            </tr>
+            <tr>
+                <th style="text-align: left;">Domisili Malanag</th>
+                <td style="text-align: left;">:PP Daruzzahra Ar-Rifa'i Malang</td>
+            </tr>
+            <tr>
+                <th style="text-align: left;">Pendidikan yang sedang ditempuh</th>
+                <td style="text-align: left;">:Mahasiswa Matematika UIN Maulana Malik Ibrahim Malang angkatan 2021</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="pendidikan">
+        <h2>Pendidikan</h2>
+        <ul>
+            <li>
+                <p>Menempuh pendidikan di UIN Maulana Malik Ibrahim Malang Tahun 2021-sekarang</p>
+            </li>
+            <li>
+                <p>Menempuh pendidikan di MAS Salafiya Pati Tahun 2019-2021</p>
+            </li>
+            <li>
+                <p>Menempuh pendidikan agama di Pondok Pesantren Tahfidz As-Salafiyah Tahun 2019-2021</p>
+            </li>
+            <li>
+                <p>Menempuh pendidikan agama di Pondok Pesantren Tahfidz Daruzzahra Ar-rifa'i Tahun 2021-sekarang</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="pengalaman">
+        <h2>Pengalaman</h2>
+        <ul>
+            <li>
+                <p>Menjadi anggota aktif UKM Seni Religius</p>
+            </li>
+            <li>
+                <p>Menjadi anggota aktif HTQ UIN Malang</p>
+            </li>
+            <li>
+                <p>Menjadi Bendahara 2 IMADE (Ikatan Mahasiswa Demak) Malang</p>
+            </li>
+            <li>
+                <p>Menjadi Pengurus PP Daruzzahra Ar-Rifa'i</p>
+            </li>
+            <li>
+                <p>Menjadi panitia Sie. Konsumsi dalam acara SYATA HTQ UIN Malang</p>
+            </li>
+            <li>
+                <p>Menjadi panitia Sie. Konsumsi dalam acara Panggung Bebas UKM Seni Religius</p>
+            </li>
+            <li>
+                <p>Menjadi pengajar TPQ di Mushola</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="keahlian">
+        <h2>Keahlian</h2>
+        <p>Maaf kak ga punya keahlian hehe.</p>
+    </section>
+
+    <section id="kontak">
+        <h2>Kontak</h2>
+        <form id="contactForm" action="proses.php" method="post">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan" required></textarea>
+
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+
+    <footer>
+        <section id="kontak">
+            <h2>Kontak</h2>
+            <p>082221425455</p>
+            <p>nfitrotissadiyah@gmail.com</p>
+        </section>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
